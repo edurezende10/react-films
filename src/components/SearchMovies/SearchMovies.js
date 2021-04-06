@@ -1,4 +1,5 @@
 import React from 'react';
+import './SearchMovies.css'
 
 const SearchMovies = () => {
   return (
@@ -14,7 +15,7 @@ const SearchMovies = () => {
           placeholder="Fight club "
           id="query"
         />
-        <button className="submit" type="submit">
+        <button className="button" type="submit">
           Search
         </button>
       </form>
