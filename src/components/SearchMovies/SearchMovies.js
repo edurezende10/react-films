@@ -31,13 +31,13 @@ const SearchMovies = () => {
     <>
       <form onSubmit={searchMovies} className="form">
         <label htmlFor="query" className="label">
-          Movie Name
+          Digite o nome do filme
         </label>
         <input
           type="text"
           className="input"
           name="query"
-          placeholder="Fight club "
+          placeholder="Harry Potter "
           id="query"
           value={query}
           onChange={(event) => {
